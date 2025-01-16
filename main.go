@@ -51,6 +51,6 @@ func main() {
 
 
 
-    // Start server
+    // Start server with port 8080
     log.Fatal(app.Listen(":8080"))
 }
